@@ -1,0 +1,212 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    height:100%;
+}
+
+.headerlogo {
+    float: left;
+    margin-right: 300px;
+    margin-left: 100px
+}
+.headerlogo > img {
+    height: 50px;
+    max-width: 100%;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    max-width: 100%;
+}
+
+    nav ul li {
+        display: block;
+        max-width: 100%;
+    }
+
+    .navlink {
+        height: 35px;
+        margin-right: 45px;
+        margin-left: 5px;
+        font-size: 12px;
+        float: left;
+        padding-top: 12px;
+        color: rgb(29, 26, 26);
+        text-decoration: none;
+    }
+
+    .Loginbutton {
+        float: right;
+        padding: 5px;
+        margin: 10px 10px;
+        background-color: rgb(64, 64, 212);
+        border: 1px solid;
+        color: #f3f3f3;
+        font-size: 0.9em;
+        max-width: 100%;
+        
+    }
+
+    /* i tried using float till i learn about flex
+    .ourfaculty{
+        float: left;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        background-color:rgb(16, 16, 56);
+        width: 100%;
+        height:400px
+    
+    }*/
+
+       /*
+        .ourfaculty > p {
+        float: right;
+        color: #fff;
+        font-size: 12px;
+        margin-right: 650px;
+        }*/
+
+        .ourfaculty{
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content:center;
+            width:100%;
+            height:400px;
+            background: rgb(15, 15, 46);
+            }
+            .ourfaculty > h2 {
+                color: #fff;
+                font-size: 16px;
+            }
+            .ourfaculty > p {
+                font-size: 12px;
+                color:#fff;
+                }
+
+    section.container1{
+        padding:80px 0;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+    }
+    section.container1 div{
+        background-color: gray;
+        height: 50%;
+        width: 100%
+    }
+    section.container1> article > div.box{
+        padding:20px 0;
+        max-width: 200px;
+        margin:0 auto;
+        display: flex;
+
+    }
+    section.container1 article > *{
+        margin: 10px 10px 10px 30px;
+    }
+    section.container1>article>p{
+        font-size: small;
+    }
+            section.container2{
+                padding:80px 0;
+                max-width: 1000px;
+                margin: 0 auto;
+                display: flex;
+            }
+            section.container2 div{
+                background-color: gray;
+                height: 40%;
+                width: 100%
+            }
+            section.container2> article > div.box1{
+                padding:20px 0;
+                max-width: 200px;
+                margin:0 auto;
+                display: flex;
+        
+            }
+            section.container2 article > *{
+                margin: 10px 10px 10px 30px;
+            }
+            section.container2>article>p{
+                font-size: small;
+            }
+
+    .apply{
+        padding:60px 0;
+        text-align: center;
+        background:rgba(12, 10, 10, 0.87);
+        color:#fff
+     }
+     .apply>div.remaining>div{
+         justify-content: center;
+         align-items: center;
+         display: flex;
+         height: 90px;
+         width: 90px;
+         border: 1px solid grey;
+         border-radius: 50%;
+         -webkit-border-radius:50%;
+         -moz-border-radius: 50%;
+         -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+     }
+
+     .apply .remaining{
+         display:flex;
+         justify-content: center;
+         align-items: center;
+     }
+     .apply>div.remaining >div p{
+         font-size:10px
+     }
+     .apply button{
+         margin: 0;
+         border: 1px solid white;
+         padding: 20 px 25px;
+     }
+     .foonav{
+         color: white;
+         background:rgb(15, 15, 46);
+         width: 100%;
+         height: 350px;
+         margin-bottom: 0;
+     }
+     .foonav> div.navfoo{
+        padding: 50px;
+        margin:0 10px;
+        max-width: 1000px;
+        height: 500px;
+        display: flex;
+    }
+     .foonav> div.navfoo h5{
+         margin:0 0 10px 0;
+        }
+     .foonav>div.navfoo ul{
+         display:block;
+         list-style:none;
+         font-display:white;
+         align-items:right;
+        }
+     .foonav> div.navfoo > div.about{
+         display:block;
+         }
+     .foonav> div.navfoo > div> ul> li>a.navlink{
+         color:white; 
+     }
+     footer{
+        padding:10px 0;
+        text-align: center;
+        background:rgb(15, 15, 46);
+        color:#fff;
+     }
+    .foonav> .navfoo > div> ul> li{
+        margin: 0;
+    }
